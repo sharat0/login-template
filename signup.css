@@ -1,0 +1,108 @@
+*{
+    margin: 0px 0px;
+    padding: 0px 0px;
+}
+
+#main{
+    background-color: #000;
+    color: blanchedalmond;
+    height: 100vh;
+}
+.logo, .head, .formtext{
+    display: block;
+}
+
+.logo{
+    text-align: center;
+    font-size: 40px;
+    padding-top: 20px;
+}
+
+.head{
+    text-align: center;
+    font-size: 30px;
+    padding-top: 10px;
+    margin-bottom: 5%;
+    display: block;
+    /* text-shadow: 2px 5px 10px rgb(236, 108, 2); */
+    color: white;
+    text-decoration: underline white;
+    font-family: 'Russo One', sans-serif;    
+}
+
+#centerbox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+}
+
+.forms{
+    background: url(img/signup.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 50%;
+    height: 60vh;
+    text-align: center;
+    padding-top: 2%;
+    border-radius: 10px;
+    box-shadow: 5px 10px 50px red;
+}
+
+.formtext{
+    margin-bottom: 5px;
+    margin-top: 10px;
+    text-align: left;
+    margin-left: 34%;
+    color: #fff;
+     font-family: 'Play', sans-serif;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+
+i{
+    color: #fff;
+}
+
+input{
+    width: 35%;
+    margin: 5px 0px;
+    margin-bottom: 20px;
+    padding-bottom: 5px;
+    border: 0px 0px;
+    outline: none;
+    border-width: 0px;
+    border-bottom: 2px solid white;
+    background-color: transparent;
+    color:#fff;
+}
+#btn{
+    display: block;
+    margin-left: 42%;
+    font-size: 16px;
+    padding: 5px 5px;
+    background-color: #fd4040;
+    color: white;
+    border: 0px;
+    border-radius: 5px;
+}
+
+#btn:hover{
+    cursor: pointer;
+    background-color: red;
+}
+
+::placeholder {
+  color: white;
+  opacity: 1;
+}
+
+
+.login{
+    margin-top: 50px;
+    font-size: 18px;
+}
+a{
+    color: red;
+    text-decoration: none;
+}
